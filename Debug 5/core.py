@@ -21,7 +21,10 @@ goalOne = 49
 listTwo = [3, 89, 2, 4]
 goalTwo = 6
 
-listThree = [8, [int(i) for i in list( '123' * (9 ** 5))], 123, [int(i) for i in list( '123' * (9 ** 5))]]
+# Done to make list three much longer
+randomGarbage = [int(i) for i in list( '123' * (9 ** 5))]
+
+listThree = [8, randomGarbage, 123, randomGarbage]
 goalThree = 131
 
 listFour = [9, 8, 7, 6, 5, 10, 11, 12, 13, 14, 15, 16, 17, 21, 12, 1313]
